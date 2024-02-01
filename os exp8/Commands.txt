@@ -1,0 +1,11 @@
+create table emp_21co68(eid number(3) primary key, ename varchar(20), salary number(5), hire_date date, job varchar(12), DID number(3), mid number(3));
+
+
+insert into emp_21co68 values(707, 'Vishal', 9500, '05-jan-2001', 'Manager', 30, null);
+insert into emp_21co68 values(705, 'Lalit', 6500, '10-jan-2001', 'Manager', 20, 707);
+insert into emp_21co68 values(701, 'Deepak', 8000, '05-feb-2001', 'Analyst', 30, 707);
+insert into emp_21co68 values(702, 'Naresh', 9000, '27-nov-2003', 'Manager', 10, 707);
+insert into emp_21co68 values(703, 'Sumesh', 7000, '09-oct-2002', 'Salesman', 20, 705);
+insert into emp_21co68 values(704, 'Aditya', 9000, '04-nov-2004', 'Analyst', 30, 707);
+insert into emp_21co68 values(706, 'Amit', null, '01-jan-2001', 'Clerk', 10, 702);
+insert into emp_21co68 values(708, 'Sunit', 8000, '06-jan-2006', 'Accountant', 10, 702);
